@@ -17,6 +17,7 @@ body{
 }
 a{
     color: #000;
+    text-decoration: none;
 }
 
 .navbar{
@@ -181,4 +182,17 @@ p input{
     background: linear-gradient(180deg, rgba(150,251,180,1) 0%, rgba(91,200,141,1) 40%, rgba(63,157,108,1) 100%);
 padding: .6rem 1rem;
 border-radius: 60px;
+}
+.bg-img4{
+    background-image: url('../assetes/img/023_amadegisafar.jpg');
+}
+
+.img-carousel{
+   min-width: 200px;
+    height: 110px;
+    border-radius: 8px;
+
+}
+.carousel-slide{
+    overflow-x: auto;
 }
